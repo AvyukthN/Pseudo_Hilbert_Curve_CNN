@@ -1,0 +1,11 @@
+Problems:
+
+- code is terrible
+
+- Model is overfitting
+    - unbalanced dataset probably the culprit bcz model is predicting 4.smthing for every data pt
+        - and 4.smthing is like the most common data pt
+    - how to deal with this
+        - I have NO CLUE HOW TO DEAL WITH THIS
+        - 7/7/2022
+            - update I have a clue... scrap the whole thing and build a bidirectional LSTM to predict rating just on review text
